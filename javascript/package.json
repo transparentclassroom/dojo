@@ -1,0 +1,41 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "test": "TZ=America/New_York BASE_URL=http://localhost:3000 jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TransparentClassroom/dojo.git"
+  },
+  "author": "Andrew Smith <andrewsmith@alumni.stanford.edu>",
+  "homepage": "https://github.com/TransparentClassroom/dojo#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.2.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "ramda": "^0.25.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "regenerator-runtime": "^0.12.0",
+    "sinon": "^6.3.4",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/test_setup.js"
+  }
+}
