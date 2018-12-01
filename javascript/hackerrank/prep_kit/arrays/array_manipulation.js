@@ -1,5 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/crush/problem
+ *
+ * Trainers: Andrew
  */
 
 export const arrayManipulation = (n, manipulations) => {

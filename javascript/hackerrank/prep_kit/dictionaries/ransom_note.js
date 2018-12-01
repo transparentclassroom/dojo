@@ -1,5 +1,7 @@
 /**
  * https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+ *
+ * Trainers: Andrew
  */
 
 export const ransomNote = (magazine, message) => {
